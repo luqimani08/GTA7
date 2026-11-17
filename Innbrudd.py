@@ -13,7 +13,7 @@ def innbrudd():
 
     if valg != "1" and valg != "2" and valg != "3":
 
-        print("Feil! politet kom!")
+        print("Feil tall!")
         return True
 
     if int(valg) == riktig:
