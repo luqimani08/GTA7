@@ -15,7 +15,7 @@ hudfarge = input("Hudfarge: ")
 
 spiller = Character(navn, alder, høyde, hudfarge)
 
-print(spiller.navn)
-print(spiller.alder)
-print(spiller.høyde)
-print(spiller.hudfarge)
+print(navn)
+print(alder)
+print(høyde)
+print(hudfarge)
