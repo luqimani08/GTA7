@@ -3,7 +3,7 @@ class Character:
         self.navn = navn
         self.alder = alder
         self.høyde = høyde
-        self.hudfarge = hudfarge   # denne linjen manglet også
+        self.hudfarge = hudfarge   
         self.liv = 100
         self.penger = 2000
 
