@@ -10,7 +10,9 @@ def innbrudd():
 
     valg = input("hvilken velger du? 1, 2, eller 3?")
 
-
+    if valg == "dra vekk":
+        print("Du valgte å gå videre med dagen din")
+        return False
     if valg != "1" and valg != "2" and valg != "3":
 
         print("Feil! politet kom!")
@@ -21,7 +23,7 @@ def innbrudd():
         print("Du gikk inn i huset og ser 300$")
         return True
     else:
-        print("Alarmen går!")
+        print("Feil kode, Politiet er påvei!")
         return False
 
 if not innbrudd():
