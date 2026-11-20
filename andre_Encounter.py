@@ -1,10 +1,7 @@
-class Character:
-    def __init__(self, liv):
-        self.liv = liv
-
+from character import spiller
 def slasskamp(character):
-    print("Du går rundt i Grorud og møter en person")
-    print("ENDRE SENERE: personen begynner å bli frekk")
+    print("Du går rundt i Grorud og møter noen som lager bråk")
+    print("Du drar til personen og ber han være stille, men han begynner å skrike på deg")
     print("velger du å slå til han og ta risken, eller går du vekk?")
     valg = input("Vil du slå han, eller gå vekk? ")
 
@@ -15,5 +12,4 @@ def slasskamp(character):
     else:
         print("du gikk videre med dagen din")
 
-spiller = Character(100)
 slasskamp(spiller)
